@@ -1,0 +1,9 @@
+# Name,    Type,  SubType,   Offset,    Size,  Flags
+#  (Bootloader)              0x1000,    28K,
+#  (Partition table)         0x8000,    4K,
+nvs,       data,  nvs,       0x9000,    20K,
+otadata,   data,  ota,       0xE000,    8K,
+app0,      app,   ota_0,     0x10000,   512K,
+app1,      app,   ota_1,     0x90000,   512K,
+spiffs,    data,  spiffs,    0x110000,  2944K,
+coredump,  data,  coredump,  0x3F0000,  64K,

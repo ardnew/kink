@@ -1,0 +1,14 @@
+{
+    "global": [
+        "--format=text",
+        "--log-format=json"
+    ],
+    "compile": [
+        "--warnings=all",
+        "--build-property=build.code_debug=5",
+        "--build-property=build.cdc_on_boot=1",
+        "--build-cache-path=/opt/kink/src/arduino/build/esp32:esp32:adafruit_magtag29_esp32s2",
+        "--build-path=/opt/kink/src/arduino/build/esp32:esp32:adafruit_magtag29_esp32s2",
+        "--dump-profile"
+    ]
+}
